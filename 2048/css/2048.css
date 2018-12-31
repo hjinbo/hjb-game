@@ -1,0 +1,201 @@
+body {
+    background: #faf8ef;
+}
+.board-back {
+    width: 428px;
+    height: 428px;
+    background-color: #bbada0;
+    padding: 5px;
+    margin-left: 450px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.chessman {
+    width: 97px;
+    height: 97px;
+    border-radius: 5px;
+    background-color: rgba(238, 228, 218, 0.35);
+    margin: 5px;
+    float: left;
+    text-align: center;
+}
+
+.num-div {
+    width: 97px;
+    height: 97px;
+    border-radius: 5px;
+    /*background-color: #000;*/
+    float: left;
+    text-align: center;
+}
+
+.btn-back {
+    width: 428px;
+    height: 60px;
+    margin-top: 20px;
+    background-color: #bbada0;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 450px;
+    text-align: center;
+}
+
+.score {
+    float: left;
+    width: 97px;
+    height: 50px;
+    background-color: #776e65;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: large;
+    font-family: fantasy;
+    font-variant-numeric: oldstyle-nums;
+    color: mintcream;
+}
+
+.best {
+    float: right;
+    width: 97px;
+    height: 50px;
+    background-color: #776e65;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: large;
+    font-family: fantasy;
+    font-variant-numeric: oldstyle-nums;
+    color: mintcream;
+}
+
+.score span {
+    display: block;
+    text-align: center;
+}
+
+.best span {
+    display: block;
+    text-align: center;
+}
+
+.chessman span {
+    line-height: 96px;
+    font-size: xx-large;
+    font-family: fantasy; // -webkit-pictograph
+    font-variant-numeric: oldstyle-nums;
+    color: mintcream; // #776e65
+}
+
+.mid {
+    width: 428px;
+    height: 20px;
+    margin-left: 450px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#new-game {
+    background-color: #8f7a66;
+    float: left;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#new-game:hover {
+    transform: scale(1.1);
+    transition: all 300ms ease 0s;
+}
+
+#reset {
+    float: left;
+    font-family: -webkit-pictograph;
+    color: #ffffff;
+}
+
+.music {
+    font-size: x-large;
+    float: right;
+    cursor: pointer;
+}
+
+.music:hover {
+    transform: scale(1.3);
+    transition: all 300ms ease 0s;
+}
+
+#tip {
+    width: 200px;
+    background-color: #faf8ef;
+}
+
+#tip span {
+    color: #ffffff;
+}
+
+/*数字北背景div颜色*/
+.n2 {
+    background-color: #eee4da;
+}
+
+.n4 {
+    background-color: #ede0c8;
+}
+
+.n8 {
+    background-color: #f2b179;
+}
+
+.n16 {
+    background-color: #f59563;
+}
+
+.n32 {
+    background-color: #f67c5f;
+}
+
+.n64 {
+    background-color: #f65e3b;
+}
+
+.n128 {
+    background-color: #edcf72;
+}
+
+.n256 {
+    background-color: #eaba1d
+}
+/*待增加的颜色*/
+.n512 {
+    background-color: #ec517e;
+}
+
+.n1024 {
+    background-color: #ec2a62;
+}
+
+.n2048 {
+    background-color: #bd1042;
+}
+
+.n4096 {
+    background-color: #92042d;
+}
+
+.n8192 {
+    background-color: #521b5d;
+}
+
+.n16384 {
+    background-color: #2c0633;
+}
+
+.n32768 {
+    background-color: #000000;
+}
+
+.n65536 {
+    background-color: #fff;
+}
+
+
+

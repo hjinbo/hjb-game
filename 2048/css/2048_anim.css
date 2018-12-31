@@ -1,0 +1,143 @@
+.x1 {
+    animation: xMove1 250ms linear;
+    -webkit-animation: xMove1 250ms linear;
+    -ms-animation: xMove1 250ms linear;
+    -moz-animation: xMove1 250ms linear;
+}
+
+.x2 {
+    animation: xMove2 225ms linear;
+    -webkit-animation: xMove2 225ms linear;
+    -ms-animation: xMove2 225ms linear;
+    -moz-animation: xMove2 225ms linear;
+}
+
+.x3 {
+    animation: xMove3 200ms linear;
+    -webkit-animation: xMove3 200ms linear;
+    -ms-animation: xMove3 200ms linear;
+    -moz-animation: xMove3 200ms linear;
+}
+
+.x-1 {
+    animation: xMove-1 250ms linear;
+    -webkit-animation: xMove-1 250ms linear;
+    -ms-animation: xMove-1 250ms linear;
+    -moz-animation: xMove-1 250ms linear;
+}
+
+.x-2 {
+    animation: xMove-2 225ms linear;
+    -webkit-animation: xMove-2 225ms linear;
+    -ms-animation: xMove-2 225ms linear;
+    -moz-animation: xMove-2 225ms linear;
+}
+
+.x-3 {
+    animation: xMove-3 200ms linear;
+    -webkit-animation: xMove-3 200ms linear;
+    -ms-animation: xMove-3 200ms linear;
+    -moz-animation: xMove-3 200ms linear;
+}
+
+.y1 {
+    animation: yMove1 250ms linear;
+    -webkit-animation: yMove1 250ms linear;
+    -ms-animation: yMove1 250ms linear;
+    -moz-animation: yMove1 250ms linear;
+}
+
+.y2 {
+    animation: yMove2 225ms linear;
+    -webkit-animation: yMove2 225ms linear;
+    -ms-animation: yMove2 225ms linear;
+    -moz-animation: yMove2 225ms linear;
+}
+
+.y3 {
+    animation: yMove3 200ms linear;
+    -webkit-animation: yMove3 200ms linear;
+    -ms-animation: yMove3 200ms linear;
+    -moz-animation: yMove3 200ms linear;
+}
+
+.y-1 {
+    animation: yMove-1 250ms linear;
+    -webkit-animation: yMove-1 250ms linear;
+    -ms-animation: yMove-1 250ms linear;
+    -moz-animation: yMove-1 250ms linear;
+}
+
+.y-2 {
+    animation: yMove-2 225ms linear;
+    -webkit-animation: yMove-2 225ms linear;
+    -ms-animation: yMove-2 225ms linear;
+    -moz-animation: yMove-2 225ms linear;
+}
+
+.y-3 {
+    animation: yMove-3 200ms linear;
+    -webkit-animation: yMove-3 200ms linear;
+    -ms-animation: yMove-3 200ms linear;
+    -moz-animation: yMove-3 200ms linear;
+}
+
+@keyframes xMove1 { 100% {transform: translateX(107px);} }
+@-webkit-keyframes xMove1 { 100% {transform: translateX(107px);} }
+@-ms-keyframes xMove1 { 100% {transform: translateX(107px);} }
+@-moz-keyframes xMove1 { 100% {transform: translateX(107px);} }
+
+@keyframes xMove2 { 100% {transform: translateX(214px);} }
+@-webkit-keyframes xMove2 { 100% {transform: translateX(214px);} }
+@-ms-keyframes xMove2 { 100% {transform: translateX(214px);} }
+@-moz-keyframes xMove2 { 100% {transform: translateX(214px);} }
+
+@keyframes xMove3 { 100% {transform: translateX(291px);} }
+@-webkit-keyframes xMove3 { 100% {transform: translateX(291px);} }
+@-ms-keyframes xMove3 { 100% {transform: translateX(291px);} }
+@-moz-keyframes xMove3 { 100% {transform: translateX(291px);} }
+
+@keyframes xMove-1 { 100% {transform: translateX(-107px);} }
+@-webkit-keyframes xMove-1 { 100% {transform: translateX(-107px);} }
+@-ms-keyframes xMove-1 { 100% {transform: translateX(-107px);} }
+@-moz-keyframes xMove-1 { 100% {transform: translateX(-107px);} }
+
+@keyframes xMove-2 { 100% {transform: translateX(-214px);} }
+@-webkit-keyframes xMove-2 { 100% {transform: translateX(-214px);} }
+@-ms-keyframes xMove-2 { 100% {transform: translateX(-214px);} }
+@-moz-keyframes xMove-2 { 100% {transform: translateX(-214px);} }
+
+@keyframes xMove-3 { 100% {transform: translateX(-291px);} }
+@-webkit-keyframes xMove-3 { 100% {transform: translateX(-291px);} }
+@-ms-keyframes xMove-3 { 100% {transform: translateX(-291px);} }
+@-moz-keyframes xMove-3 { 100% {transform: translateX(-291px);} }
+
+@keyframes yMove1 { 100% {transform: translateY(107px);} }
+@-webkit-keyframes yMove1 { 100% {transform: translateY(107px);} }
+@-ms-keyframes yMove1 { 100% {transform: translateY(107px);} }
+@-moz-keyframes yMove1 { 100% {transform: translateY(107px);} }
+
+@keyframes yMove2 { 100% {transform: translateY(214px);} }
+@-webkit-keyframes yMove2 { 100% {transform: translateY(214px);} }
+@-ms-keyframes yMove2 { 100% {transform: translateY(214px);} }
+@-moz-keyframes yMove2 { 100% {transform: translateY(214px);} }
+
+@keyframes yMove3 { 100% {transform: translateY(291px);} }
+@-webkit-keyframes yMove3 { 100% {transform: translateY(291px);} }
+@-ms-keyframes yMove3 { 100% {transform: translateY(291px);} }
+@-moz-keyframes yMove3 { 100% {transform: translateY(291px);} }
+
+@keyframes yMove-1 { 100% {transform: translateY(-107px);} }
+@-webkit-keyframes yMove-1 { 100% {transform: translateY(-107px);} }
+@-ms-keyframes yMove-1 { 100% {transform: translateY(-107px);} }
+@-moz-keyframes yMove-1 { 100% {transform: translateY(-107px);} }
+
+@keyframes yMove-2 { 100% {transform: translateY(-214px);} }
+@-webkit-keyframes yMove-2 { 100% {transform: translateY(-214px);} }
+@-ms-keyframes yMove-2 { 100% {transform: translateY(-214px);} }
+@-moz-keyframes yMove-2 { 100% {transform: translateY(-214px);} }
+
+@keyframes yMove-3 { 100% {transform: translateY(-291px);} }
+@-webkit-keyframes yMove-3 { 100% {transform: translateY(-291px);} }
+@-ms-keyframes yMove-3 { 100% {transform: translateY(-291px);} }
+@-moz-keyframes yMove-3 { 100% {transform: translateY(-291px);} }
