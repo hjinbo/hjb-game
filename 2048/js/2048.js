@@ -300,7 +300,9 @@ $(function() {
                 }
             }
         }
-        randomNum(board);
+        setTimeout(function() {
+            randomNum(board);
+        }, 200);
     }
 
     function moveDown (board) {
@@ -334,7 +336,9 @@ $(function() {
                 }
             }
         }
-        randomNum(board);
+        setTimeout(function() {
+            randomNum(board);
+        }, 200);
     }
 
     function moveLeft (board) {
@@ -368,7 +372,9 @@ $(function() {
                 }
             }
         }
-        randomNum(board);
+        setTimeout(function() {
+            randomNum(board);
+        }, 200);
     }
 
     function moveRight (board) {
@@ -402,7 +408,9 @@ $(function() {
                 }
             }
         }
-        randomNum(board);
+        setTimeout(function() {
+            randomNum(board);
+        }, 200);
     }
 
     function randomNum (board) {
@@ -422,7 +430,7 @@ $(function() {
                 $(idSelector).attr("class", "chessman layui-anim layui-anim-scale");
                 setTimeout(function () {
                     $(idSelector).attr("class", baseClass);
-                }, 300);
+                }, 100);
                 count--;
             }
             num++;
