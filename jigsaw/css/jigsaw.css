@@ -1,0 +1,146 @@
+body {
+    perspective: 500px;
+    -webkit-perspective: 500px;
+    
+}
+.table {
+    position: relative;
+    z-index: 1;
+    width: 554px;
+    height: 354px;
+    margin: 20px auto;
+    transform: rotate3d(1, 0, 0, 45deg);
+    -webkit-transform: rotate3d(1, 0, 0, 55deg);
+}
+.boardBackground {
+    width: 454px;
+    height: 454px;
+    padding: 30px;
+    background-image: url("../img/bg.jpg");
+    box-shadow: -11px 2px 13px black;
+    transform: rotate3d(1, 0.2, -0.4, 55deg) scale(0.5);
+    -webkit-transform: rotate3d(1, 0.2, -0.4, 55deg) scale(0.5);
+    
+}
+.ash {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.board-3, .board-4, .board-5 {
+    width: 455px;
+    height: 455px;
+    background-color: #ffffff;
+}
+.eachPic-3 {
+    margin: 0.5px;
+    width: 150px;
+    height: 150px;
+    float: left; 
+}
+.eachPic-4 {
+    margin: 0.5px;
+    width: 112.5px;
+    height: 112.5px;
+    float: left; 
+}
+.eachPic-5 {
+    margin: 0.5px;
+    width: 90px;
+    height: 90px;
+    float: left; 
+}
+.eachPic-clicked {
+    transform: scale(1.05);
+    transition: all 400ms ease 0s;
+}
+.operator {
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 200px;
+    left: 1000px;
+    background-image: url("../img/bg.jpg");
+    transform: rotate3d(1, 0, -0.2, 55deg) scale(0.6);
+    -webkit-transform: rotate3d(1, 0, -0.2, 55deg) scale(0.6);
+}
+.reset {
+    width: 100px;
+    height: 50px;
+    margin: 20px auto;
+    background-color: skyblue;
+    /* background-image: url("../img/"); */
+}
+.chooseMemory {
+    width: 100px;
+    height: 50px;
+    margin: 20px auto;
+    background-color: skyblue;
+}
+.openMemory {
+    width: 100px;
+    height: 50px;
+    margin: 20px auto;
+    background-color: skyblue;
+}
+.frozenMemory {
+    width: 100px;
+    height: 50px;
+    margin: 20px auto;
+    background-color: skyblue;
+}
+.reset:hover, .chooseMemory:hover, .openMemory:hover, .frozenMemory:hover {
+    cursor: pointer;
+}
+.originPicDiv {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    background-color: skyblue;
+    transform: scale(1);
+}
+.originPic {
+    width: 200px;
+    height: 200px;
+}
+.beginAnimate {
+    animation: begin 2s both;
+}
+.endAnimate {
+    animation: end 2s both;
+}
+.cancelTableStyle {
+    transform: none;
+    -webkit-transform: none;
+}
+
+@keyframes begin {
+    from {
+        box-shadow: -11px 2px 13px black;
+        transform: rotate3d(1, 0.2, -0.4, 55deg) scale(0.5);
+        -webkit-transform: rotate3d(1, 0.2, -0.4, 55deg) scale(0.5);
+    }
+    to {
+        box-shadow: none;
+        transform: none;
+        -webkit-transform: none;
+    }
+}
+
+@keyframes end {
+    from {
+        box-shadow: none;
+        transform: none;
+        -webkit-transform: none;
+    }
+    to {
+        box-shadow: -11px 2px 13px black;
+        transform: rotate3d(1, 0.2, -0.4, 55deg) scale(0.5);
+        -webkit-transform: rotate3d(1, 0.2, -0.4, 55deg) scale(0.5);
+    }
+}
